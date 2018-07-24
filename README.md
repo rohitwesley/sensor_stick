@@ -1,5 +1,13 @@
 # sensor_stick
 
+### Filtering Steps:
+1. Image
+2. Voxel Grid Downsampling
+3. Passthrough over Z-Axis
+4. Passthrough over X-Axis
+5. Outlier Filter
+6. RANSAC PLANE Filter
+
 ### Exercise 1, 2 and 3 pipeline implemented :
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
 PointCloud Filtering with RANSAC - [RANSAC.py](https://github.com/rohitwesley/sensor_stick/blob/master/scripts/RANSAC.py)
